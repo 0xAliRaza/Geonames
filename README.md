@@ -28,7 +28,7 @@ php artisan migrate
 ```
 
 Want to install all of the geonames records for the US, Canada, and Mexico as well as pull in the feature codes 
-definitions file in English? 
+definitions file in English? ([All geonames country codes](https://www.geonames.org/countries/))
 ```php
 php artisan geonames:install --country=US --country=CA --country=MX --language=en
 ```
